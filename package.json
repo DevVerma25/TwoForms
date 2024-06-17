@@ -1,0 +1,16 @@
+{
+  "name": "internproj",
+  "version": "1.0.0",
+  "description": "A simple form app with data synchronization to MySQL Database",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "author": "Dev Verma ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "mysql": "^2.18.1"
+  }
+}
